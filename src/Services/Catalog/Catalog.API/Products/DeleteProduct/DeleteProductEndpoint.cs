@@ -1,8 +1,4 @@
-﻿
-using Microsoft.Extensions.Hosting;
-using System.Buffers.Text;
-
-namespace Catalog.API.Products.DeleteProduct
+﻿namespace Catalog.API.Products.DeleteProduct
 {
     //public record DeleteProductRequest(Guid Id);
     public record DeleteProductResponse(bool IsSuccess);
