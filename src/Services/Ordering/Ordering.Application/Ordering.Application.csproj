@@ -12,7 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Orders\Queries\" />
+    <Folder Include="Orders\Queries\GetOrdersByName - Copy %282%29\" />
+    <Folder Include="Orders\Queries\GetOrdersByName - Copy\" />
   </ItemGroup>
 
   <ItemGroup>
