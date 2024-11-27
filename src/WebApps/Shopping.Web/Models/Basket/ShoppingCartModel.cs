@@ -3,11 +3,11 @@
 public class ShoppingCartModel
 {
     public string UserName { get; set; } = default!;
-    public List<ShoppingCartItem> Items { get; set; } = new();
+    public List<ShoppingCartItemModel> Items { get; set; } = new();
     public decimal TotalPrice => Items.Sum(x => x.Price * x.Quantity);
 }
 
-public class ShoppingCartItem
+public class ShoppingCartItemModel
 {
     public int Quantity { get; set; } = default!;
     public string Color { get; set; } = default!;
